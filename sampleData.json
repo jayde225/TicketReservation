@@ -1,0 +1,10 @@
+{
+    "showName": null,
+    "seatRow": null,
+    "seatNumber": null,
+    "location": null,
+    "boughtStatus": false,
+    "paidForStatus": false,
+    "ticketBuyerName": null,
+    "ticketBuyerAddress": null
+}
