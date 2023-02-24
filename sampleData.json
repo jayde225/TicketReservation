@@ -1,10 +1,75 @@
 {
-    "showName": null,
-    "seatRow": null,
-    "seatNumber": null,
-    "location": null,
-    "boughtStatus": false,
-    "paidForStatus": false,
-    "ticketBuyerName": null,
-    "ticketBuyerAddress": null
+    "tickets":
+        [
+            {
+                "showName": "Huntsville Havocs",
+                "section": 324,
+                "seatRow": "J",
+                "seatNumber": 7,
+                "location": "Propst Arena",
+                "day": "03/10/2023",
+                "time": "7:00 PM",
+                "price": 9.00,
+                "boughtStatus": false,
+                "paidForStatus": false,
+                "ticketBuyerName": null,
+                "ticketBuyerAddress": null
+            },
+            {
+                "showName": "Huntsville Havocs",
+                "section": 324,
+                "seatRow": "J",
+                "seatNumber": 7,
+                "location": "Propst Arena",
+                "day": "03/11/2023",
+                "time": "7:00 PM",
+                "price": 9.00,
+                "boughtStatus": true,
+                "paidForStatus": true,
+                "ticketBuyerName": "Jayde Holbrook",
+                "ticketBuyerAddress": "123 Sesame Street"
+            },
+            {
+                "showName": "Third Eye Blind",
+                "section": "Orchestra Center",
+                "seatRow": "B",
+                "seatNumber": 13,
+                "location": "Mark C. Smith Concert Hall",
+                "day": "03/13/2023",
+                "time": "7:30 PM",
+                "price": 200.00,
+                "boughtStatus": true,
+                "paidForStatus": true,
+                "ticketBuyerName": "Chloe Frazer",
+                "ticketBuyerAddress": "678 Sesame Street"
+            },
+            {
+                "showName": "Monster Jam",
+                "section": 321,
+                "seatRow": "J",
+                "seatNumber": 4,
+                "location": "Propst Arena",
+                "day": "03/18/2023",
+                "time": "1:00 PM",
+                "price": 50.00,
+                "boughtStatus": true,
+                "paidForStatus": false,
+                "ticketBuyerName": "Kate Bishop",
+                "ticketBuyerAddress": "100 New York Way"
+            },
+            {
+                "showName": "Monster Jam",
+                "section": 321,
+                "seatRow": "J",
+                "seatNumber": 4,
+                "location": "Propst Arena",
+                "day": "03/18/2023",
+                "time": "7:00 PM",
+                "price": 50.00,
+                "boughtStatus": false,
+                "paidForStatus": false,
+                "ticketBuyerName": null,
+                "ticketBuyerAddress": null
+            }
+        ]
 }
