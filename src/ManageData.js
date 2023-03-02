@@ -1,6 +1,6 @@
 const http = require('http');
 const fs = require("fs"); // Use for reading files
-const data = require('./sampleData.json'); // JSON file to use
+const data = require('./database/sampleData.json'); // JSON file to use
 
 // *** WEB SERVER SET UP ***
 const hostname = '127.0.0.1';
@@ -17,7 +17,7 @@ server.listen(port, hostname, () => {
 });
 
 // *** OTHER BACKEND ***
-fs.readFile("sampleData.json", function(err, data) {
+fs.readFile("./database/sampleData.json", function(err, data) {
   if (err) throw err; // Check for errors
  
   // Convert to JS object and print
